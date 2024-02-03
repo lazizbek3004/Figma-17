@@ -1,0 +1,994 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: column;
+
+}
+nav{
+    width: 100%;
+    height: 102px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    align-items: center;
+}
+.icon{
+    display: none;
+}
+.home ul{
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+.home ul li a{
+    text-decoration: none;
+    color: #8887AE;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.home ul:nth-child(1){
+    color: #2E2BA6;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.home ul li a:hover{
+    color: #2E2BA6;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.buttons{
+    display: flex;
+    gap: 53px;
+    align-items: center;
+}
+.buttons a{
+    text-decoration: none;
+    color: #8887AE;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.buttons button{
+    padding: 8px 24px;
+    border-radius: 8px;
+background: #2E2BA6;
+box-shadow: 0px 23px 48px 0px rgba(46, 43, 166, 0.40);
+color: #FFF;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+}
+.speak{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 80px 80px;
+    align-items: center;
+}
+.right img{
+    margin-right: 31px;
+}
+.left{
+    width: 519px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.left h1{
+    color: #272D3D;
+
+/* Heading1 */
+font-family: "Changa One";
+font-size: 79px;
+font-style: normal;
+font-weight: 400;
+line-height: 74px; /* 93.671% */
+letter-spacing: -2.37px;
+}
+.left h1 span{
+    color: #2E2BA6;
+
+/* Heading1 */
+font-family: "Changa One";
+font-size: 79px;
+font-style: normal;
+font-weight: 400;
+line-height: 74px;
+letter-spacing: -2.37px;
+}
+.left p{
+    color: var(--body-text, #8A89A0);
+font-family: "PT Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.two{
+    display: flex;
+    gap: 24px;
+}
+.two button:nth-child(1){
+    display: flex;
+padding: 16px 48px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--purple, #2E2BA6);
+box-shadow: 0px 23px 48px 0px rgba(46, 43, 166, 0.40);
+color: #FFF;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+}
+.two button:nth-child(2){
+    padding: 16px 48px;
+    border-radius: 8px;
+background: #F2B04D;
+box-shadow: 0px 23px 48px 0px rgba(242, 176, 77, 0.40);
+color: #FFF;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+}
+.right{
+    position: relative;
+}
+.first{
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    gap: 18px;
+    border-radius: 24px;
+background: #FFF;
+
+/* Shadow */
+box-shadow: 0px 0px 0px 0px rgba(169, 167, 167, 0.10), -5px 6px 18px 0px rgba(169, 167, 167, 0.10), -20px 25px 32px 0px rgba(169, 167, 167, 0.09), -46px 56px 43px 0px rgba(169, 167, 167, 0.05), -82px 99px 51px 0px rgba(169, 167, 167, 0.01), -128px 154px 56px 0px rgba(169, 167, 167, 0.00);
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.second span{
+    color: #202020;
+font-family: "PT Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+.second p{
+    color: #8A89A0;
+font-family: "PT Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.first{
+    position: absolute;
+    top: 570px;
+    left: 3px;
+}
+.ikki{
+    position: absolute;
+    top: 393px;
+    left: 300px;
+
+}
+.section-1{
+    width: 100%;
+    padding: 124px 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background: #F9F9FA;
+}
+.our{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 16px;
+}
+.our h3{
+    color: var(--pink, #D23C8F);
+
+/* Header4 */
+font-family: "PT Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 160% */
+}
+.our h1{
+    color: #272D3D;
+
+/* Header2 */
+font-family: "Changa One";
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: 74px; /* 102.778% */
+letter-spacing: -2.16px;
+}
+.big-container{
+    width: 100%;
+    display: flex;
+    gap: 24px;
+}
+.inner{
+    display: flex;
+    gap: 24px;
+}
+.box{
+    width: 302px;
+    padding: 48px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+background: #FFF;
+}
+.person{
+    max-width: 246px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+.person h3{
+    color: #272D3D;
+
+/* Header3 */
+font-family: "PT Sans";
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.person p{
+    color: var(--body-text, #8A89A0);
+text-align: center;
+font-family: "PT Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.section-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: var(--purple, #2E2BA6);
+    padding: 32px 68px 67px 68px;
+    align-items: center;
+}
+.rasm{
+    margin-top: 40px;
+    position: relative;
+}
+.rasm img{
+    width: 100%;
+}
+.imag{
+    position: absolute;
+    top: 523px;
+    left: 94px;
+}
+.imag-2{
+    position: absolute;
+    top: 508px;
+    left: 502px;
+}
+.writings{
+    width: 520px;
+display: flex;
+flex-direction: column;
+gap: 24px;
+}
+.writings span{
+    color: var(--pink, #D23C8F);
+
+/* Header4 */
+font-family: "PT Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 160% */
+}
+.writings h1{
+    color: #FFF;
+
+/* Header2 */
+font-family: "Changa One";
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: 74px; /* 102.778% */
+letter-spacing: -2.16px;
+}
+.writings p{
+    color: rgba(255, 255, 255, 0.70);
+font-family: "PT Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.writings button{
+  width: 200px;
+padding: 16px 48px;
+
+gap: 10px;
+border-radius: 8px;
+background: #F2B04D;
+box-shadow: 0px 23px 48px 0px rgba(242, 176, 77, 0.40);
+border: none;
+color: #FFF;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.section-3{
+    width: 100%;
+    padding: 124px 0px 124px 84px;
+    background: #F9F9FA;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+}
+.container::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+.quti{
+    width: 410px;
+    padding: 48px 0px 48px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 24px;
+background: #FFF;
+/* Shadow */
+box-shadow: 0px 0px 0px 0px rgba(169, 167, 167, 0.10), -5px 6px 18px 0px rgba(169, 167, 167, 0.10), -20px 25px 32px 0px rgba(169, 167, 167, 0.09), -46px 56px 43px 0px rgba(169, 167, 167, 0.05), -82px 99px 51px 0px rgba(169, 167, 167, 0.01), -128px 154px 56px 0px rgba(169, 167, 167, 0.00);
+}
+.photo{
+    display: flex;
+    gap: 24px;
+}
+.for-display{
+    display: flex;
+    flex-direction: column;
+}
+.for-display p{
+    color: #272D3D;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.for-display span{
+    color: var(--body-text, #8A89A0);
+font-family: "PT Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.6;
+}
+.quti p{
+    width: 346px;
+    color: var(--body-text, #8A89A0);
+font-family: "PT Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
+.section-4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 124px 84px;
+    background: #F9F9FA;
+    text-align: center;
+}
+.paris{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.learn{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.learn span{
+    color: var(--purple, #2E2BA6);
+
+/* Header4 */
+font-family: "PT Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 160% */
+}
+.learn h1{
+    width: 410px;
+    color: var(--black, #272D3D);
+font-family: "Changa One";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px; /* 100% */
+letter-spacing: -0.48px;
+margin-top: 8px;
+margin-bottom: 26px;
+}
+.learn p{
+    width: 410px;
+    color: var(--body-text, #8A89A0);
+font-family: "PT Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+margin-bottom: 51px;
+}
+.for-button{
+    display: flex;
+    gap: 24px;
+
+}
+.for-button button:nth-child(1){
+    display: flex;
+padding: 16px 48px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--yellow, #F2B04D);
+box-shadow: 0px 23px 48px 0px rgba(242, 176, 77, 0.40);
+color: #FFF;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+}
+.for-button button:nth-child(2){
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 48px;
+    border-radius: 8px;
+border: 1px solid var(--purple, #2E2BA6);
+background: var(--purple, #2E2BA6);
+box-shadow: 0px 23px 48px 0px rgba(46, 43, 166, 0.40);
+color: #FFF;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+
+}
+.section-5{
+    width: 100%;
+    padding: 0px 84px 124px 84px;
+    background: #F9F9FA;
+}
+.cover{
+    width: 100%;
+    height: 590px;
+    border-radius: 32px;
+background: #2E2BA6;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 48px;
+    background-image: url(images/Group\ 10.png);
+}
+.lets{
+    width: 457px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.lets h1{
+    color: #FFF;
+text-align: center;
+
+/* Heading1 */
+font-family: "Changa One";
+font-size: 79px;
+font-style: normal;
+font-weight: 400;
+line-height: 74px; /* 93.671% */
+letter-spacing: -2.37px;
+}
+.lets p{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.two button:nth-child(1){
+    width: px;
+    border-radius: 8px;
+background: var(--pink, #D23C8F);
+box-shadow: 0px 23px 48px 0px rgba(46, 43, 166, 0.40);
+color: #FFF;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+}
+.two button:nth-child(2){
+    width: px;
+    border-radius: 8px;
+background: var(--yellow, #F2B04D);
+box-shadow: 0px 23px 48px 0px rgba(46, 43, 166, 0.40);
+color: #FFF;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+}
+footer{
+    width: 100%;
+    background: #FFF;
+    padding: 124px 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+footer img{
+    width: 190px;
+}
+.angel{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.birinchi{
+    display: flex;
+    gap: 135px;
+}
+.links{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.links span{
+    color: #303030;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.tel{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.tel p{
+    color: var(--body-text, #8A89A0);
+font-family: "PT Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ikkinchi{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.sub {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.sub h2{
+    color: var(--black, #272D3D);
+font-family: "PT Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sub p{
+    color: var(--body-text, #8A89A0);
+font-family: "PT Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
+.input{
+    display: flex;
+    gap: 13px;
+}
+.input input{
+    width: 328px;
+    height: 63px;
+    padding: 16px;
+    border-radius: 8px;
+border: 1px solid #8887AE;
+}
+.input button{
+    width: 178px;
+    border-radius: 8px;
+background: #2E2BA6;
+box-shadow: 0px 23px 48px 0px rgba(46, 43, 166, 0.40);
+color: #FFF;
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+color: var(--body-text, #8A89A0);
+font-family: "PT Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+@media screen and (max-width:376px){
+    .wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 32px;
+    }
+    .logo img{
+        width: 118px;
+    }
+    .home{
+        display: none;
+    }
+    .buttons{
+        display: none;
+    }
+    .icon{
+        display: flex;
+    }
+    .speak{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 10px 18px;
+        margin-top: 22px;
+    }
+    .left{
+        width: 100%;
+    }
+    .left h1{
+        width: 100%;
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .left h1 span{
+        font-size: 44px;
+        line-height: 24px;
+    }
+    .left p{
+        font-size: 16px;
+    }
+    .two{
+        width: 100%;
+    }
+    .two button:nth-child(1){
+        width: 159px;
+        font-size: 18px;
+        padding: 12px 0px;
+    }
+    .two button:nth-child(2){
+        width: 159px;
+        font-size: 18px;
+        padding: 12px 0px;
+    }
+    .right{
+        width: 100%;
+        height: 580px;
+    }
+    .right img{
+        width: 100%;
+    }
+    .first{
+        width: 100%;
+        position: absolute;
+       top: 500px;
+    }
+    .first img{
+        width: 52px;
+    }
+    .ikki{
+        width: 100%;
+        position: absolute;
+        top: 391px;
+        left: -110px;
+    }
+    .ikki img{
+        width: 438px;
+    }
+    .section-1{
+        width: 100%;
+        padding: 48px 19px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .our{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+    }
+    .our h3{
+        font-size: 14px;
+    }
+    .our h1{
+        font-size: 32px;
+    }
+    .big-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .box{
+        width: 100%;
+    }
+    .person{
+        width: 100%;
+    }
+    .person h3{
+        font-size: 20px;
+    }
+    .person p{
+        font-size: 12px;
+    }
+    .section-2{
+        width: 100%;
+        padding: 48px 19px;
+    }
+    .section-2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .rasm{
+        width: 100%;
+    }
+    .rasm img{
+        width: 100%;
+    }
+    .writings{
+        width: 100%;
+    }
+    .writings span{
+        font-size: 14px;
+    }
+    .writings h1{
+        font-size: 44px;
+        line-height: 46px;
+    }
+    .imag{
+        display: none;
+    }   
+    .writings p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .section-3{
+        width: 100%;
+        padding: 48px 19px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .our h1{
+        line-height: 36px;
+    }
+    .section-4{
+        width: 100%;
+        padding: 64px 19px;
+    }
+    .paris{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .inn{
+        width: 100%;
+    }
+    .inn img{
+        width: 100%;
+    }
+    .learn{
+        width: 100%;
+    }
+    .learn h1{
+        width: 100%;
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .learn p{
+        width: 100%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .for-button{
+        width: 100%;
+    }
+    .for-button button:nth-child(1){
+        font-size: 18px;
+        line-height: 28px;
+        padding: 0px;
+        width: 159px;
+        height: 52px;
+    }
+    .for-button button:nth-child(2){
+        font-size: 18px;
+        line-height: 28px;
+        padding: 0px;
+        width: 159px;
+        height: 52px;
+    }
+    .section-5{
+        width: 100%;
+        padding: 80px 19px 0px 19px;
+    }
+    .cover{
+        width: 100%;
+    }
+    .lets{
+        width: 100%;
+    }
+    .lets h1{
+        font-size: 44px;
+        line-height: 46px;
+    }
+    .lets p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .two {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    footer{
+        width: 100%;
+        padding: 64px 19px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .angel{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .birinchi{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+    footer img{
+        width: 118px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
